@@ -1,1 +1,1 @@
-# jokotoye18.github.io-frontend-challenge
+# Frontend-Challenge

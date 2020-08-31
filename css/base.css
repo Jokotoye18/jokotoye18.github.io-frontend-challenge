@@ -38,7 +38,7 @@ p{
     margin: 0 auto;
 }
 
-/* header and nav */
+/* header starts */
 
 header{
     width: 100%;
@@ -74,7 +74,7 @@ header{
     list-style: none;
     height: 100vh;
     width: 80%;
-    background-color: rgb(14, 13, 13, 1);
+    background-color: #000;
     z-index: 1000;
     display: flex;
     flex-direction: column;
@@ -95,6 +95,7 @@ header{
 .nav-item{
     border-bottom: 1px solid #4574d4;
     transition: color 0.5s;
+    padding-bottom: 1rem;
 }
 .nav-item:hover{
     border-bottom: 1px solid #ffffff;
@@ -108,16 +109,19 @@ header{
     color:  #4574d4;
 }
 
-/* header and nav end here */
+/* header ends here */
 
+/* border for debugging */
 .border{
     border: 1px solid red;
 }
 .border1{
     border: 1px solid blue;
 }
+/* border ends */
 
 /* layout */
+
 main{
     display: flex;
     flex-direction: column;
@@ -170,7 +174,6 @@ section{
     border-radius: 0.2rem;
     padding: 10px 10px;
     margin-bottom: 1rem;
-
 }
 .section-two select{
     padding: 10px 7px;
@@ -187,10 +190,11 @@ section{
     box-shadow: 1px 1px 10px #ccc;
     text-align: center;
     cursor: pointer;
+    font-size: 1.1rem;
+    color: #ffffff;
 }
 
 .register-btn{
-    color: #ffffff;
     background-color: #4574d4;
     border-radius: 2rem;
     box-shadow: 1px 1px 10px #4574d4;
@@ -199,18 +203,19 @@ section{
     
 }
 .pricing-btn{
-    color: #ffffff;
     background-color: #14b717;;
     border-radius: 2rem;
 } 
 
 /* button ends here */
 
+/* footer starts */
 footer{
     background-color: #ffffff;
     padding: 4rem 0;
     clip-path: polygon(0 45%, 100% 0, 100% 100%, 0% 100%);
 }
+/* footer ends */
 
 
 /* Media queries */
