@@ -14,9 +14,9 @@ html{
     font-weight: 100;
 }
 body{
-    background-image: url(../images/Azur\ Lane.jpg);
-    /* height: 100vh; */
-    /* background: linear-gradient(to right, #7896dd, #85eee4); */
+    background: linear-gradient(45deg, #7896dd,#77eee2);
+    background:  url(../images/Azur\ Lane.jpg) center no-repeat;
+    background-size: cover;
 }
 img{
     width: 100%;
@@ -32,7 +32,6 @@ a:hover, a:focus{
 p{
     font-size: 1.6rem;
 }
-
 .container{
     max-width: 80rem;
     width: 90%;
@@ -146,7 +145,7 @@ section{
     line-height: 1.3;
 }
 .section-one a{
-    color: rgba(250, 250, 250, 0.5);
+    color: rgba(0, 0, 0, 0.7);
     transition: color 0.5s;
 }
 .section-one a:hover, .section-one a:focus{
@@ -193,6 +192,7 @@ section{
     cursor: pointer;
     font-size: 1.1rem;
     color: #ffffff;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .register-btn{
@@ -202,11 +202,16 @@ section{
     box-shadow: 1px 1px 10px rgb(19, 18, 18);
     display: inline-block;
     width: 100%;
+    opacity: 0.8;
     
 }
 .pricing-btn{
     background-color: #14b717;;
     border-radius: 2rem;
+    opacity: 0.8;
+}
+.register-btn:hover, .pricing-btn:hover{
+    opacity: 1;
 } 
 
 /* button ends here */
@@ -272,15 +277,6 @@ footer{
         font-weight: 100;
         line-height: 1;
         max-width: 80%;
-    }
-    .section-one p{
-        margin: 1.2rem 0;
-    }
-    .section-one a{
-        color: rgba(250, 250, 250, 0.5);
-    }
-    .section-one a:hover, .section-one a:focus{
-        color:  #4574d4;
     }
     .section-two{
         width: 40%;
